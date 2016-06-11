@@ -1,0 +1,126 @@
+ <style> 
+
+        li{
+            margin-bottom: 15px;
+        }
+
+        th{
+            font-size: 30px;
+            font: oblique;
+        }
+            
+        h3{
+            text-decoration: underline;
+          webkit-animation: h3-agrandar 5s infinite;
+        }
+
+        .parrafo-ciudades{
+            font-style: italic;
+            font-family: sans-serif;
+            font-variant: small-caps;
+            font-size: 20px;
+            border : 5px solid red; 
+        }
+
+        .azul{
+            color: blue;
+        }
+
+        .verde{
+            color: green;
+        }
+
+        .rojo{
+            color: red;
+        }
+
+        .encabezado{
+           margin-bottom: 50px;
+           margin-top: 50px; 
+           padding-bottom: 100px;
+           padding-top: 20px;
+           color: red;
+           width: 100%;
+           background-color: #66ffcc;
+           font-size: 60px;
+           
+        }
+
+
+
+        .tabla-ciudades{
+            width: 100%;
+            margin-bottom: 30px;
+          
+        }
+
+        @-webkit-keyframes tablas-animacion {
+             50% {background-color: blue;}
+             50% {border: 15px solid lightblue;}
+        }
+
+        @-webkit-keyframes h3-agrandar {
+            50% {font-size: 40px;}
+        }
+
+
+       
+        .borde-superior{
+             border-top: 5px solid blue;
+        }
+
+        .tablas{
+             border : 1px solid black;
+           webkit-animation: tablas-animacion 5s infinite;
+        
+        }
+
+        .footer-banner{
+            width: 100%;
+            height: 50px;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            background-color: green;
+        }
+
+        .mensaje{
+           font-style: italic;
+            font-family: sans-serif;
+            font-variant: small-caps;
+            font-size: 20px;
+            float: left; 
+           margin-top: 15px;   
+        }
+
+        .boton{
+            width: 100px;
+            height: 50px;
+           float: right;
+            margin-right: 50px;
+        }      
+
+        .boton:hover{
+            width: 200px;
+            
+        }
+
+        th{
+             text-align: left;
+            background-color: #66ffff;
+            color: white;
+ 
+        }
+
+        @media screen and (min-width: 400px) and (max-width: 800px){
+             .encabezado{           
+                font-size: 10px;
+                color: white;
+                }
+
+                h3{
+                    color: blue;
+                }
+        }
+
+</style>
